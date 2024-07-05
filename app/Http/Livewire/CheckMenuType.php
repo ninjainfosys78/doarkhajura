@@ -32,10 +32,6 @@ class CheckMenuType extends Component
                 $this->menuTypes = DocumentCategory::with('documentCategories')->whereNull('document_category_id')->get();
             } elseif ($this->menu_type == "subDivision") {
                 $this->menuTypes = SubDivision::latest()->get();
-            } elseif ($this->menu_type == "PedigreeCaste") {
-                $this->menuTypes = PedigreeCategory::with('pedigreeCaste')->latest()->get();
-            } elseif ($this->menu_type == "PedigreeDistribution") {
-                $this->menuTypes = PedigreeCategory::with('pedigreeCaste')->latest()->get();
             } else {
                 $this->menuTypes = OfficeDetail::all();
             }
