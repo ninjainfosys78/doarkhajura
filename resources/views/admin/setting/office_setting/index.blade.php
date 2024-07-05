@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="input-style-1">
-                        <label for="chief_id">कार्यालय प्रमुख</label>
+                        <label for="chief_id">निर्देशक</label>
                         <select name="chief_id" id="chief_id" class="form-control">
                             <option value="">- - छान्नुहोस् - -</option>
                             @foreach($employees as $employee)
@@ -171,7 +171,7 @@
                         @enderror
                     </div>
                 </div>
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                     <div class="input-style-1">
                         <label for="siemens_officer_id">सिमेन वितरण अधिकारी</label>
                         <select name="siemens_officer_id" id="siemens_officer_id" class="form-control">
@@ -184,7 +184,7 @@
                         <p class="text-danger">{{$message}}</p>
                         @enderror
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="col-md-4">
                     <div class="input-style-1">
