@@ -1,0 +1,127 @@
+.report {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.accordion-body {
+    padding: 0 !important;
+}
+
+.custom-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 0; /* Remove padding from li */
+}
+
+.custom-list li a {
+    display: block; /* Make the a tag block level */
+    padding: 5px 0; /* Add padding to a tag */
+    color: black;
+    padding-left: 10px;
+}
+
+.custom-list li:hover {
+    background: #037555 none repeat scroll 0 0;
+}
+
+.custom-list li a:hover {
+    color: white;
+}
+
+
+.intro {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.info {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.info-title {
+    color: #fff;
+    background: #175b12;
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.info-farmer {
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12); */
+
+    border-radius: 0;
+    padding: 10px;
+}
+
+.farmer-info {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.farmer-info h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-research {
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(240, 221, 221);
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+.card-research a {
+    color: #462f2f;
+}
+
+
+.card-research:hover {
+    background: #037555 none repeat scroll 0 0;
+    color: white;
+    transform: scale(1.05);
+}
+.card-research:hover a{
+    color: white;
+}
+
+.links-card ul li {
+    border-bottom: 1px dotted #037555;
+    padding: 15px;
+}
+
+.links-card ul li > a:hover {
+    color: #ea1313
+}
+
+.links-card ul li a {
+    color: #175b12;
+
+}
+
+.agromony-image h4{
+    background-color: #037555;
+    padding: 20px;
+    font-size: 20px;
+}
+.ed-card{
+    background-color: #306ea1;
+    color:#fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.ed-card h3{
+font-weight: 600;
+
+}
